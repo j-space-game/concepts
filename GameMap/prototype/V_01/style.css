@@ -1,0 +1,93 @@
+#planet1 {
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+   margin-top: -5em; /*set to a negative number 1/2 of your height*/
+    /*margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    position:fixed;
+    background-image: url("img/Sun100.png");
+}
+
+
+#planet2 {
+    width: 128px;
+    height: 128px;
+    top: 75%;
+    left: 25%;
+    position:fixed;
+    background-image: url("img/Internet-Explorer.png");
+}
+
+#planet3 {
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 10%;
+    position:fixed;
+    background-image: url("img/Eris100.png");
+}
+
+#planet4 {
+    width: 128px;
+    height: 128px;
+    top: 10%;
+    left: 75%;
+    position:fixed;
+    background-image: url("img/Subzero.png");
+}
+
+#planet5 {
+     width: 100px;
+     height: 100px;
+     top: 10%;
+     left: 25%;
+     position:fixed;
+     background-image: url("img/Trade-Federation-Battleship100.png");
+ }
+
+#planet6 {
+    width: 128px;
+    height: 128px;
+    top: 85%;
+    left: 80%;
+    position:fixed;
+    background-image: url("img/Earth_128x128.png");
+}
+
+#planet7 {
+    width: 50px;
+    height: 50px;
+    top: 80%;
+    left: 85%;
+    position:fixed;
+    background-image: url("img/Moon50.png");
+}
+
+#planet8 {
+    width: 128px;
+    height: 128px;
+    top: 35%;
+    left: 60%;
+    position:fixed;
+    background-image: url("img/Clavius-3-Base-icon.png");
+}
+
+#planet9 {
+    width: 128px;
+    height: 128px;
+    opacity: 0.7;
+    top: 55%;
+    left: 90%;
+    position:fixed;
+    background-image: url("img/The-Red-Planet128.png");
+}
+
+#planet10 {
+    width: 128px;
+    height: 128px;
+    top: 40%;
+    left: 25%;
+    position:fixed;
+    background-image: url("img/Death-Star---2nd128.png");
+}

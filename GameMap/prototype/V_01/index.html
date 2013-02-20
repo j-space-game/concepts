@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Moving Space Background - jsFiddle demo by felixmc</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">
+</head>
+<!-- <script type="text/javascript" src="/js/lib/mootools-core-1.4.5-nocompat.js"></script> -->
+<style media="" data-href="/css/normalize.css">*, body, button, input, textarea, select {
+    text-rendering: optimizeLegibility;
+    font-size:100%;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img {
+    border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;}
+
+</style>
+<!-- <script type="text/javascript" src="https://raw.github.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js"></script> -->
+<style type="text/css">
+    body {
+        background: url(img/stars.png) repeat fixed,
+        url(img/stars2.png) repeat fixed,
+        url(img/space.png) repeat fixed;
+        height: 100%;
+        -webkit-animation: cosmos linear 1000s infinite;
+    }
+
+    @-webkit-keyframes cosmos {
+        from { background-position: 0 0, 0 0, 0 0; }
+        to { background-position: 8192px 1024px, -6144px -2048px, -9216px 3072px; }
+    }
+
+</style>
+<!-- <script type="text/javascript">//<![CDATA[
+window.addEvent('load', function() {
+
+});//]]>
+
+</script> -->
+<script>window["_GOOG_TRANS_EXT_VER"] = "1";</script>
+<body>
+<div id="planet1"></div>
+<div id="planet2"></div>
+<div id="planet3"></div>
+<div id="planet4"></div>
+<div id="planet5"></div>
+<div id="planet6"></div>
+<div id="planet7"></div>
+<div id="planet8"></div>
+<div id="planet9"></div>
+<div id="planet10"></div>
+</body>
+</html>
