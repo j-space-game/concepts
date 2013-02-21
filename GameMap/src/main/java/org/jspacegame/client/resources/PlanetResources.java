@@ -17,4 +17,24 @@ public interface PlanetResources extends ClientBundle {
     @Source("org/jspacegame/images/death_star.png")
     @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.None)
     ImageResource planetDeathStar();
+
+    @Source("org/jspacegame/images/black_planet.png")
+    @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.None)
+    ImageResource planetBlack();
+
+    @Source("org/jspacegame/images/eris.png")
+    @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.None)
+    ImageResource planetEris();
+
+    @Source("org/jspacegame/images/earth.png")
+    @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.None)
+    ImageResource planetEarth();
+
+    @Source("org/jspacegame/images/clavius.png")
+    @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.None)
+    ImageResource planetClavius();
+
+    @Source("org/jspacegame/images/red.png")
+    @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.None)
+    ImageResource planetRed();
 }

@@ -1,6 +1,6 @@
 package org.jspacegame.client.widgets;
 
-import com.google.gwt.user.client.ui.SimplePanel;
+import com.google.gwt.user.client.ui.FlowPanel;
 import org.jspacegame.client.resources.GameMapResources;
 
 /**
@@ -9,7 +9,7 @@ import org.jspacegame.client.resources.GameMapResources;
  * User: yevgen.kravchenko
  * Date: 20/02/13
  */
-public class SpacePanel extends SimplePanel {
+public class SpacePanel extends FlowPanel {
 
     public SpacePanel() {
         super();
