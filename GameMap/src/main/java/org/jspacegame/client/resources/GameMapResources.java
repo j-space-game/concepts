@@ -15,6 +15,7 @@ public interface GameMapResources extends ClientBundle {
     public static final GameMapResources resources = GWT.create(GameMapResources.class);
 
     @Source("org/jspacegame/images/space.png")
+    @ImageResource.ImageOptions(repeatStyle = ImageResource.RepeatStyle.Both)
     ImageResource space();
 
     @Source("org/jspacegame/style/map.css")

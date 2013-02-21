@@ -1,4 +1,5 @@
 @sprite .space {
     gwt-image: 'space';
-    background-size: 100% auto;
+    width: 100%;
+    hegith: 100%;
 }
