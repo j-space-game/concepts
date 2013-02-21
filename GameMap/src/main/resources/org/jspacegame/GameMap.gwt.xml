@@ -25,4 +25,10 @@
     <source path='client'/>
     <source path='shared'/>
 
+    <!-- This property is used to disable image inlining,
+    uncomment it if you are tired to see mess in html
+
+    <set-property name="ClientBundle.enableInlining" value="false" />
+    -->
+
 </module>
